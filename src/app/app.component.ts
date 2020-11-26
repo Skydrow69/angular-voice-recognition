@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'voice-reco';
   @ViewChild(MatSidenav) sidenav: MatSidenav;
   events: string[] = [];
-  opened: boolean = true;
+  opened: boolean = false;
 
 }
